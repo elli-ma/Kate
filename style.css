@@ -10,18 +10,13 @@
         font-size: 300%;
         display: flex;
         justify-content: space-evenly;
-        background-color: rgb(48, 45, 45);
+        background-color: rgb(0, 0, 0);
         margin: 5% none;
         padding-top: 20%;
         padding-bottom: 20%;
-        margin-top: 20%;
-        margin-bottom: 20%;
+        /*margin-top: 20%;
+        margin-bottom: 20%;*/
         font-family: 'Poiret One', cursive;
-    }
-    
-    .Brow {
-        text-decoration: none;
-        color: darkgray;
     }
     
     section {
@@ -29,6 +24,7 @@
         /*flex-wrap: wrap;
     justify-content: space-around;*/
         margin: 0%;
+        background-color: rgb(78, 78, 78);
     }
     
     .hello {
@@ -38,8 +34,7 @@
     }
     
     .logo {
-        margin-top: 5%;
-        margin-right: 5%;
+        margin: 5%;
         width: 700px;
         height: 700px;
         border-radius: 50%;
@@ -48,15 +43,20 @@
     
     h1 {
         font-size: 500%;
-        color: darkgray;
+        color: rgb(255, 255, 255);
         align-content: center;
-        font-family: 'Playfair Display SC', serif;
+        font-family: 'Poiret One', cursive;
     }
     
     h3 {
         font-size: 200%;
-        color: darkgray;
+        color: rgb(190, 190, 190);
         font-family: 'Poiret One', cursive;
+    }
+    
+    .Brow {
+        text-decoration: none;
+        color: darkgray;
     }
     
     .gallery {
@@ -64,6 +64,7 @@
         /*flex-wrap: wrap;*/
         justify-content: space-around;
         overflow-x: auto;
+        margin: 5% 0%;
     }
     
     .foto {
@@ -78,6 +79,7 @@
         justify-content: center;
         padding-top: 50%;
         padding-bottom: 50%;
+        color: black;
     }
     
     @media (max-width: 600px) {
