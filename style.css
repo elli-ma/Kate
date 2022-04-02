@@ -1,163 +1,158 @@
-    body {
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    а {}
-    
-    a:hover {
-        color: aliceblue;
-    }
-    
-    header {
-        width: 100%;
-        font-size: 300%;
-        display: flex;
-        justify-content: space-evenly;
-        background-color: rgb(0, 0, 0);
-        margin: 5% none;
-        padding-top: 20%;
-        padding-bottom: 20%;
-        /*margin-top: 20%;
-        margin-bottom: 20%;*/
-        font-family: 'Poiret One', cursive;
-    }
-    
-    section {
-        display: flex;
-        /*flex-wrap: wrap;
-    justify-content: space-around;*/
-        margin: 0%;
-        background-color: rgb(78, 78, 78);
-    }
-    
-    .hello {
-        display: flex;
-        flex-direction: column;
-        padding: 5% 10%;
-    }
-    
-    .logo {
-        margin: 5%;
-        width: 700px;
-        height: 700px;
-        border-radius: 50%;
-        padding: 2%;
-    }
-    
-    h1 {
-        font-size: 500%;
-        color: rgb(255, 255, 255);
-        font-family: 'Poiret One', cursive;
-    }
-    
-    h3 {
-        font-size: 200%;
-        color: rgb(196, 193, 193);
-        font-family: 'Poiret One', cursive;
-    }
-    
-    .Brow {
-        text-decoration: none;
-        color: rgb(103, 103, 103);
-    }
-    
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        overflow: scroll;
-        margin: 5% 0%;
-        animation-duration: 1s;
-        animation-name: slidein;
-    }
-    
-    .foto {
-        padding: 3% 1%;
-        width: 30%;
-        height: auto;
-    }
-    
-    @keyframes slidein {
-        0% {
-            justify-content: start;
+        body {
+            margin: 0px;
+            padding: 0px;
         }
-        100% {
-            justify-content: end;
-        }
-    }
-    
-    footer {
-        display: flex;
-        justify-content: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        color: black;
-    }
-    
-    button {
-        background-color: rgb(78, 78, 78);
-        color: rgb(254, 254, 254);
-        font-size: 200%;
-        padding: 1%;
-        font-family: 'Poiret One', cursive;
-        border: 0;
-    }
-    
-    button:hover {
-        color: black;
-        background-color: rgb(191, 191, 191);
-    }
-    
-    @media (max-width: 600px) {
+        
         a:hover {
-            color: black;
+            color: aliceblue;
         }
-        section {
-            display: flex;
-            flex-direction: column-reverse;
-            padding: 0%;
-        }
-        .hello {
-            color: brown;
-            padding: 0% 6%;
-        }
-        h1 {
-            padding: 0%;
-            font-size: 180%;
-            align-self: center;
-            margin: 3%;
-        }
-        h3 {
-            font-size: 140%;
-            padding-bottom: 21%;
-            text-align: center;
-        }
-        .logo {
-            width: 80%;
-            height: 80%;
-            padding-top: 10%;
-            padding-bottom: 0%;
-            padding-left: 10%;
-            padding-right: 10%;
-            margin: 0%;
-        }
+        
         header {
-            flex-direction: column;
+            width: 100%;
+            font-size: 300%;
             display: flex;
             justify-content: space-evenly;
-            align-items: center;
-            padding: 12% 0%;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            margin: 5% none;
+            padding-top: 20%;
+            padding-bottom: 20%;
+            /*margin-top: 20%;
+        margin-bottom: 20%;*/
+            font-family: 'Poiret One', cursive;
         }
+        
+        section {
+            display: flex;
+            /*flex-wrap: wrap;
+    justify-content: space-around;*/
+            margin: 0%;
+            background-color: rgb(78, 78, 78);
+        }
+        
+        .hello {
+            display: flex;
+            flex-direction: column;
+            padding: 5% 10%;
+        }
+        
+        .logo {
+            margin: 5%;
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            padding: 2%;
+        }
+        
+        h1 {
+            font-size: 500%;
+            color: rgb(255, 255, 255);
+            font-family: 'Poiret One', cursive;
+        }
+        
+        h3 {
+            font-size: 200%;
+            color: rgb(196, 193, 193);
+            font-family: 'Poiret One', cursive;
+        }
+        
         .Brow {
-            font-size: 50%;
             text-decoration: none;
-            color: darkgray;
+            color: rgb(103, 103, 103);
         }
+        
+        .gallery {
+            display: flex;
+            overflow: scroll;
+            margin: 5% 0%;
+            /*animation-duration: 1s;
+        animation-name: slidein;
+        */
+        }
+        
         .foto {
-            width: 60%;
+            padding: 3% 1%;
+            width: 30%;
             height: auto;
-            padding-top: 10%;
         }
-    }
+        
+        @keyframes slidein {
+            0% {
+                justify-content: start;
+            }
+            100% {
+                justify-content: end;
+            }
+        }
+        
+        footer {
+            padding-top: 5%;
+            padding-bottom: 10%;
+            color: black;
+        }
+        
+        button {
+            background-color: rgb(78, 78, 78);
+            color: rgb(254, 254, 254);
+            font-size: 200%;
+            padding: 1%;
+            font-family: 'Poiret One', cursive;
+            border: 0;
+        }
+        
+        button:hover {
+            color: black;
+            background-color: rgb(191, 191, 191);
+        }
+        
+        @media (max-width: 600px) {
+            a:hover {
+                color: black;
+            }
+            section {
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 0%;
+            }
+            .hello {
+                color: brown;
+                padding: 0% 6%;
+            }
+            h1 {
+                padding: 0%;
+                font-size: 180%;
+                align-self: center;
+                margin: 3%;
+            }
+            h3 {
+                font-size: 140%;
+                padding-bottom: 21%;
+                text-align: center;
+            }
+            .logo {
+                width: 80%;
+                height: 80%;
+                padding-top: 10%;
+                padding-bottom: 0%;
+                padding-left: 10%;
+                padding-right: 10%;
+                margin: 0%;
+            }
+            header {
+                flex-direction: column;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 12% 0%;
+                background-color: rgb(255, 255, 255);
+            }
+            .Brow {
+                font-size: 50%;
+                text-decoration: none;
+                color: darkgray;
+            }
+            .foto {
+                width: 60%;
+                height: auto;
+                padding-top: 10%;
+            }
+        }
