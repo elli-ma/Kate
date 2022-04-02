@@ -64,8 +64,9 @@
     
     .gallery {
         display: flex;
-        /*flex-wrap: wrap;  justify-content: flex-end;*/
-        /*overflow: scroll;*/
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        overflow: scroll;
         margin: 5% 0%;
         animation-duration: 1s;
         animation-name: slidein;
