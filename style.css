@@ -5,6 +5,10 @@
     
     а {}
     
+    a:hover {
+        color: aliceblue;
+    }
+    
     header {
         width: 100%;
         font-size: 300%;
@@ -49,13 +53,13 @@
     
     h3 {
         font-size: 200%;
-        color: rgb(190, 190, 190);
+        color: rgb(196, 193, 193);
         font-family: 'Poiret One', cursive;
     }
     
     .Brow {
         text-decoration: none;
-        color: darkgray;
+        color: rgb(103, 103, 103);
     }
     
     .gallery {
@@ -85,12 +89,29 @@
     footer {
         display: flex;
         justify-content: center;
-        padding-top: 50%;
-        padding-bottom: 50%;
+        padding-top: 10%;
+        padding-bottom: 10%;
         color: black;
     }
     
+    button {
+        background-color: rgb(78, 78, 78);
+        color: rgb(254, 254, 254);
+        font-size: 200%;
+        padding: 1%;
+        font-family: 'Poiret One', cursive;
+        border: 0;
+    }
+    
+    button:hover {
+        color: black;
+        background-color: rgb(191, 191, 191);
+    }
+    
     @media (max-width: 600px) {
+        a:hover {
+            color: black;
+        }
         section {
             display: flex;
             flex-direction: column-reverse;
@@ -107,7 +128,7 @@
             margin: 3%;
         }
         h3 {
-            font-size: 90%;
+            font-size: 140%;
             padding-bottom: 21%;
             text-align: center;
         }
