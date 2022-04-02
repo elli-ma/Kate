@@ -60,16 +60,26 @@
     
     .gallery {
         display: flex;
-        /*flex-wrap: wrap;*/
-        justify-content: space-around;
-        overflow-x: auto;
+        /*flex-wrap: wrap;  justify-content: flex-end;*/
+        /*overflow: scroll;*/
         margin: 5% 0%;
+        animation-duration: 1s;
+        animation-name: slidein;
     }
     
     .foto {
         padding: 3% 1%;
-        width: 50%;
+        width: 30%;
         height: auto;
+    }
+    
+    @keyframes slidein {
+        0% {
+            justify-content: start;
+        }
+        100% {
+            justify-content: end;
+        }
     }
     
     footer {
